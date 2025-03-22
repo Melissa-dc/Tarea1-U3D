@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetraU3D", "LetraU3D\LetraU3D.csproj", "{8512A7D3-1BF6-4033-84DE-7879B8D2DC95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8512A7D3-1BF6-4033-84DE-7879B8D2DC95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8512A7D3-1BF6-4033-84DE-7879B8D2DC95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8512A7D3-1BF6-4033-84DE-7879B8D2DC95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8512A7D3-1BF6-4033-84DE-7879B8D2DC95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C234E2B-C877-46AC-96BA-B3B2899B1BEA}
+	EndGlobalSection
+EndGlobal
