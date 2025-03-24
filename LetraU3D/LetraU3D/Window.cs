@@ -129,10 +129,11 @@ namespace LetraU3D
 
             // Rotación en el eje Y
             _rotationAngle += 0.001f;
-            Matrix4 model = Matrix4.CreateRotationY(_rotationAngle);
-            Matrix4 view = Matrix4.LookAt(new OpenTK.Mathematics.Vector3(0, 0, 2), OpenTK.Mathematics.Vector3.Zero, OpenTK.Mathematics.Vector3.UnitY);
+           Matrix4 model = Matrix4.CreateRotationY(_rotation);
+            Matrix4 view = Matrix4.LookAt(new Vector3(0, 0, 2), Vector3.Zero, Vector3.UnitY);
             Matrix4 projection = Matrix4.CreatePerspectiveFieldOfView(MathHelper.DegreesToRadians(45f), 800f / 600f, 0.1f, 100f);
-            _mvpMatrix = model * view * projection;
+            _mvp = model * view * projection;
+
 
             // Enviar la matriz al shader
             int mvpLocation = GL.GetUniformLocation(_shaderProgram, "mvp");
